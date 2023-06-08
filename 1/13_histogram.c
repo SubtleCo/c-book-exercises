@@ -20,7 +20,7 @@ int main() {
     }
   }
 
-  for (i = 10; i > 0; --i) {
+  for (i = 10; i > 0; i--) {
     for (j = 1; j < 10; ++j) {
       if (wcount[j] >= i)
         printf("# ");
@@ -30,7 +30,7 @@ int main() {
     putchar('\n');
   }
 
-  for (i = 1; i < 10; ++i) {
+  for (i = 1; i <= 10; ++i) {
     printf("%d ", i);
   }
   return 0;
